@@ -73,9 +73,6 @@ void merge_sort(int array[], int left, int right)
 
 int main()
 {
-	//int test[6] = {3,9,68,1,6,100};
-	//merge(test, 0, 0, 1);
-	//printf_array(temp, 2);
 	merge_sort(input, 0, 11);
 	printf_array(input, 12);
 	return 0;
